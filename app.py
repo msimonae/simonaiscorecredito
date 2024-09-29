@@ -44,7 +44,7 @@ faixa_etaria_map = {faixas_etarias[i]: i for i in range(len(faixas_etarias))}
 @app.route('/')
 def home():
     return '''
-    <h1>Prever Score e Rating de Crédito</h1>
+    <h1>Prever Score de Crédito - Marcelo Simonae - msimonae@gmail.com</h1>
     <form action="/predict" method="post">
         <label>UF:</label><input type="text" name="UF" required><br>
         <label>Escolaridade:</label><input type="text" name="ESCOLARIDADE" required><br>
